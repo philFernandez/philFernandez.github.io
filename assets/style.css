@@ -31,3 +31,14 @@ div.img-container img {
     border: 8px solid var(--content-bg-color);
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
+
+a {
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font-weight: 250;
+}
