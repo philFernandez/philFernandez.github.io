@@ -1,8 +1,33 @@
+:root {
+    --body-bg-color: #F4F7FA;
+    --content-bg-color: #FFFFFF;
+    --headshot-size: 170px;
+}
 
 body {
-    background-color: #F4F7FA;
+    background-color: var(--body-bg-color);
 }
 
 div.main {
-    background-color: #FFFFFF;
+    background-color: var(--content-bg-color);
+}
+
+div.img-container {
+    height: var(--headshot-size);
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: -75px;
+}
+
+div.img-container img {
+    width: var(--headshot-size);
+    height: var(--headshot-size);
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid var(--content-bg-color);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
