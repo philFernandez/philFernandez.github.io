@@ -10,6 +10,8 @@ body {
 
 div.main {
     background-color: var(--content-bg-color);
+    border-radius: 5px;
+    padding: 0 50px;
 }
 
 div.img-container {
