@@ -46,6 +46,10 @@ a:hover {
     font-weight: 250;
 }
 
+div.resume-part {
+    margin: 2rem 0;
+}
+
 i.resume-icon {
     border-radius: 50%;
     display: inline-flex;
