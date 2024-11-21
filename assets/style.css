@@ -2,6 +2,7 @@
     --body-bg-color: #F4F7FA;
     --content-bg-color: #FFFFFF;
     --headshot-size: 170px;
+    --icon-color: #6C757D;
 }
 
 body {
@@ -43,4 +44,21 @@ a {
 a:hover {
     color: black;
     font-weight: 250;
+}
+
+span.person-circle {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: var(--body-bg-color);
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+i.bi-person-circle {
+    font-size: 36px;
+    color: var(--icon-color);
+    border-radius: 50%;
+    line-height: 0;
 }
