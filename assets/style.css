@@ -2,7 +2,7 @@
     --body-bg-color: #F4F7FA;
     --content-bg-color: #FFFFFF;
     --headshot-size: 170px;
-    --icon-color: #6C757D;
+    --icon-color: #8496BC;
 }
 
 body {
@@ -46,19 +46,20 @@ a:hover {
     font-weight: 250;
 }
 
-span.person-circle {
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-color: var(--body-bg-color);
-    height: 36px;
-    width: 36px;
+i.resume-icon {
     border-radius: 50%;
+    display: inline-flex;
+    background: var(--icon-color);
+    color: var(--body-bg-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    font-size: 1.125rem;
+    margin-right: 0.5rem;
 }
 
-i.bi-person-circle {
-    font-size: 36px;
-    color: var(--icon-color);
-    border-radius: 50%;
-    line-height: 0;
+h4.resume-header {
+    font-weight: 300;
 }
