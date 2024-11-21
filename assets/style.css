@@ -7,6 +7,7 @@
 
 body {
     background-color: var(--body-bg-color);
+    min-width: 435px;
 }
 
 div.main {
