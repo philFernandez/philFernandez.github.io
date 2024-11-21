@@ -71,10 +71,15 @@ h4.resume-header {
 
 div.work-experience {
     display: flex;
+    position: relative;
+    padding-left: 1.5rem;
 }
 
-/* div.work-experience::before {
+div.work-experience::before {
     content: "• ";
     color: darkgray;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
     font-size: 2rem;
-} */
+}
