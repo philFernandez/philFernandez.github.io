@@ -68,3 +68,13 @@ i.resume-icon {
 h4.resume-header {
     font-weight: 300;
 }
+
+div.work-experience {
+    display: flex;
+}
+
+/* div.work-experience::before {
+    content: "• ";
+    color: darkgray;
+    font-size: 2rem;
+} */
