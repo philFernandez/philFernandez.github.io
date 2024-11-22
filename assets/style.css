@@ -79,6 +79,7 @@ div.work-experience {
 
 div.work-experience::before {
     content: "";
+    display: inline-block;
     border: 2px solid var(--badge-color);
     background-color: var(--badge-bg-color);
     border-radius: 50%;
@@ -89,6 +90,22 @@ div.work-experience::before {
     bottom: 6.5px;
     font-size: 2.5rem;
 }
+
+div.all-experience {
+    position: relative;
+}
+
+div.all-experience::before {
+    content: "";
+    display: inline-block;
+    border: 2px solid var(--badge-color);
+    background-color: var(--badge-bg-color);
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 2.8px;
+    top: 10px;
+} 
 
 div.work-experience-time, 
 div.work-experience-company {
