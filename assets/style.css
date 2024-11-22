@@ -92,3 +92,7 @@ div.work-experience-company {
 h5.experience-title {
     margin: 0.25em 0 0 1.1em;
 }
+
+div.experience-container {
+    margin-bottom: 4rem;
+}
