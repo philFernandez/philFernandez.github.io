@@ -3,6 +3,8 @@
     --content-bg-color: #FFFFFF;
     --headshot-size: 170px;
     --icon-color: #8496BC;
+    --badge-bg-color: #E4E9F2;
+    --badge-color: #B1C0D8;
 }
 
 body {
@@ -76,12 +78,16 @@ div.work-experience {
 }
 
 div.work-experience::before {
-    content: "• ";
-    color: darkgray;
+    content: "";
+    border: 2px solid var(--badge-color);
+    background-color: var(--badge-bg-color);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
     position: absolute;
     left: 0;
-    bottom: -10px;
-    font-size: 2rem;
+    bottom: 6.5px;
+    font-size: 2.5rem;
 }
 
 div.work-experience-time, 
