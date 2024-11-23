@@ -85,6 +85,7 @@ div.work-experience {
     padding-left: 1.5rem;
 }
 
+/* Little dots in experience timeline */
 div.work-experience::before {
     content: "";
     display: inline-block;
@@ -95,7 +96,7 @@ div.work-experience::before {
     height: 10px;
     position: absolute;
     left: 0;
-    bottom: 6.5px;
+    bottom: 12px;
     font-size: 2.5rem;
 }
 
@@ -103,6 +104,7 @@ div.all-experience {
     position: relative;
 }
 
+/* Vertical bar in experience timeline */
 div.all-experience::before {
     content: "";
     display: inline-block;
@@ -118,6 +120,13 @@ div.all-experience::before {
 div.work-experience-time, 
 div.work-experience-company {
     font-weight: 200;
+}
+
+div.work-experience-company {
+    background-color: var(--badge-bg-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
 }
 
 
