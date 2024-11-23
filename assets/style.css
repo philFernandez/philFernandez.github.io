@@ -71,6 +71,10 @@ h4.resume-header {
     font-weight: 300;
 }
 
+h4.top-resume-header {
+    margin-bottom: 1.5rem;
+}
+
 div.experience {
     margin: 1rem 0 0 1.5rem;
 }
@@ -129,7 +133,11 @@ div.work-experience-company {
     font-weight: 600;
 }
 
-
 div.experience-container {
     margin-bottom: 4rem;
+}
+
+ul.ul-unstyled {
+    padding-left: 0;
+    list-style: none;
 }
