@@ -71,6 +71,14 @@ h4.resume-header {
     font-weight: 300;
 }
 
+div.experience {
+    margin: 1rem 0 0 1.5rem;
+}
+
+div.experience ul {
+    margin-left: -1rem;
+}
+
 div.work-experience {
     display: flex;
     position: relative;
@@ -112,9 +120,6 @@ div.work-experience-company {
     font-weight: 200;
 }
 
-h5.experience-title {
-    margin: 0.25em 0 0 1.1em;
-}
 
 div.experience-container {
     margin-bottom: 4rem;
