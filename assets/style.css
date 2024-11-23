@@ -5,6 +5,7 @@
     --icon-color: #8496BC;
     --badge-bg-color: #E4E9F2;
     --badge-color: #B1C0D8;
+    --bar-color: #8497BC;
 }
 
 body {
@@ -140,4 +141,17 @@ div.experience-container {
 ul.ul-unstyled {
     padding-left: 0;
     list-style: none;
+}
+
+div.resume-progress {
+    border-radius: 0.25rem;
+    background: var(--badge-bg-color);
+    height: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+div.resume-progress-bar {
+    border-radius: 0.25rem;
+    color: #fff;
+    background: var(--bar-color);
 }
