@@ -7,6 +7,7 @@
     --badge-color: #B1C0D8;
     --bar-color: #8497BC;
     --skill-badge-bg: #4F6591;
+    --item-header-color: #354765;
 }
 
 body {
@@ -40,16 +41,27 @@ div.img-container img {
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
-a {
+a.contact-anchor {
     color: black;
     font-weight: lighter;
     text-decoration: none;
 }
 
-a:hover {
+a.contact-anchor:hover {
     color: black;
     font-weight: 250;
 }
+
+a.project-anchor {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+a.project-anchor:hover {
+    font-weight: 800;
+}
+
 
 div.resume-part {
     margin: 2rem 0;
@@ -166,4 +178,26 @@ div.resume-progress-bar {
     border-radius: 0.25rem;
     color: #fff;
     background: var(--bar-color);
+}
+
+div.item {
+    margin-bottom: 1.2rem;
+}
+
+i.item-icon {
+    font-size: 0.5rem;
+    vertical-align: middle;
+    position:relative;
+    top: -1.5px;
+}
+
+h5.item-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--item-header-color);
+}
+
+div.item-description {
+    font-size: 0.9rem;
+    padding-left: 1.35rem;
 }
