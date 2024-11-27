@@ -6,6 +6,7 @@
     --badge-bg-color: #E4E9F2;
     --badge-color: #B1C0D8;
     --bar-color: #8497BC;
+    --skill-badge-bg: #4F6591;
 }
 
 body {
@@ -141,6 +142,17 @@ div.experience-container {
 ul.ul-unstyled {
     padding-left: 0;
     list-style: none;
+}
+
+li.list-inline-item {
+    display: inline-block;
+}
+
+span.skill-badge {
+    background-color: var(--skill-badge-bg);
+    color: #fff;
+    padding: 0.5rem 0.65rem;
+    margin-bottom: 0.5rem;
 }
 
 div.resume-progress {
