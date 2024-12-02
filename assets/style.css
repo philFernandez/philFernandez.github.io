@@ -191,13 +191,22 @@ i.item-icon {
     top: -1.5px;
 }
 
-h5.item-heading {
-    font-size: 1.2rem;
+h5.item-heading,
+div.resume-degree {
+    font-size: 1rem;
     font-weight: bold;
+}
+
+h5.item-heading {
     color: var(--item-header-color);
 }
 
-div.item-description {
+div.item-description,
+div.resume-degree-org,
+div.resume-degree-time {
     font-size: 0.9rem;
+}
+
+div.item-description {
     padding-left: 1.35rem;
 }
